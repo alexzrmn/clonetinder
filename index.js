@@ -1,7 +1,9 @@
+import 'react-native-gesture-handler';
+import * as firebase from "firebase";
 import React from "react";
 import { createStackNavigator } from '@react-navigation/stack';
 import { NavigationContainer } from '@react-navigation/native';
-import * as firebase from "firebase";
+
 import Login from "./screens/Login";
 import Home from "./screens/Home";
 
@@ -20,7 +22,6 @@ const AppStack = createStackNavigator();
 function MyStack() {
     return (
       <AppStack.Navigator
-        initialRouteName="Login"
         headerMode='none'
       >
         <AppStack.Screen 

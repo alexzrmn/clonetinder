@@ -5,6 +5,9 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
+    "facebookScheme": "fb425339328812598",
+    "facebookAppId": "425339328812598",
+    "facebookDisplayName": "cloneTinder",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
