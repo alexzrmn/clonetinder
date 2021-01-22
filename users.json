@@ -1,41 +1,86 @@
-{
-    "users": 
-    [
-        {
-            "id": "259389830744794",
-            "name": "Candice",
-            "birthday": "10/18/1986",
-            "bio": "Supermodel"
-          },
-          {
-            "id": "169571172540",
-            "name": "Miranda",
-            "birthday": "12/12/1983",
-            "bio": "Doctor"
-          },
-          {
-            "id": "1476279359358140",
-            "name": "Alissa",
-            "birthday": "2/11/1990",
-            "bio": "Comedian"
-          },
-          {
-            "id": "1140849052644433",
-            "name": "Behati",
-            "birthday": "3/23/1991",
-            "bio": "Developer"
-          },
-          {
-            "id": "912478262117011",
-            "name": "Rosie",
-            "birthday": "9/4/1989",
-            "bio": "Artist"
-          },
-          {
-            "id": "173567062703796",
-            "name": "Kendall",
-            "birthday": "8/17/1992",
-            "bio": "Truck Driver"
-          }
-    ]
+"Object"{
+  "additionalUserInfo":"pg"{
+     "isNewUser":false,
+     "profile":"Object"{
+        "birthday":"05/17/1998",
+        "email":"alexisroman59840@gmail.com",
+        "first_name":"Alex",
+        "id":"1719084414940825",
+        "last_name":"Rm",
+        "location":"Object"{
+           "id":"101870663188020",
+           "name":"Marseille"
+        },
+        "name":"Alex Rm",
+        "picture":"Object"{
+           "data":"Object"{
+              "height":100,
+              "is_silhouette":true,
+              "url":"https://scontent-atl3-2.xx.fbcdn.net/v/t1.30497-1/c29.0.100.100a/p100x100/84628273_176159830277856_972693363922829312_n.jpg?_nc_cat=1&ccb=2&_nc_sid=12b3be&_nc_ohc=NNh98FvJJdcAX93cY5W&_nc_ht=scontent-atl3-2.xx&tp=27&oh=94a68c95a110c00cbefccdedb211c8fe&oe=602FE8F5",
+              "width":100
+           }
+        }
+     },
+     "providerId":"facebook.com"
+  },
+  "credential":"Object"{
+     "oauthAccessToken":"EAAGC2AeaVjYBALqZC4284XrlM0d6ZBf4j60ixZAJ1wYGIt48RWsYBvXZCaPrmpam8QmhBDfZC4ufhZCUPWu42oKh0yLXltN4agG7tZCxOYGT9iqvE8XXyBzH3s5pcQJjZCgIUTOujWS7EUsfaNLAWZAbzvg0HvdjcnkpyDuXmW9iZCrjFrg0q1pvwi8APE3wkGTCdScHY75cFiKAZDZD",
+     "providerId":"facebook.com",
+     "signInMethod":"facebook.com"
+  },
+  "operationType":"signIn",
+  "user":"Object"{
+     "apiKey":"AIzaSyDEx5R8bmogfuNEfDx3XbqEY5wRoAqCZZs",
+     "appName":"[DEFAULT]",
+     "authDomain":null,
+     "createdAt":"1611323887226",
+     "displayName":"Alex Rm",
+     "email":"alexisroman59840@gmail.com",
+     "emailVerified":false,
+     "isAnonymous":false,
+     "lastLoginAt":"1611331596753",
+     "multiFactor":"Object"{
+        "enrolledFactors":"Array"[
+           
+        ]
+     },
+     "phoneNumber":null,
+     "photoURL":"https://graph.facebook.com/1719084414940825/picture",
+     "providerData":"Array"[
+        "Object"{
+           "displayName":"Alex Rm",
+           "email":"alexisroman59840@gmail.com",
+           "phoneNumber":null,
+           "photoURL":"https://graph.facebook.com/1719084414940825/picture",
+           "providerId":"facebook.com",
+           "uid":"1719084414940825"
+        }
+     ],
+     "redirectEventId":null,
+     "stsTokenManager":"Object"{
+        "accessToken":"eyJhbGciOiJSUzI1NiIsImtpZCI6ImEyYjkxODJiMWI0NmNiN2ZjN2MzMTFlZTgwMjFhZDY1MmVlMjc2MjIiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiQWxleCBSbSIsInBpY3R1cmUiOiJodHRwczovL2dyYXBoLmZhY2Vib29rLmNvbS8xNzE5MDg0NDE0OTQwODI1L3BpY3R1cmUiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vdGluZGVyY2xvbmUtNTEzYjIiLCJhdWQiOiJ0aW5kZXJjbG9uZS01MTNiMiIsImF1dGhfdGltZSI6MTYxMTMzMTU5NiwidXNlcl9pZCI6InJwQkhucjFJS3hjaGFvNnNPRVdXeHBRMHNvVTIiLCJzdWIiOiJycEJIbnIxSUt4Y2hhbzZzT0VXV3hwUTBzb1UyIiwiaWF0IjoxNjExMzMxNTk2LCJleHAiOjE2MTEzMzUxOTYsImVtYWlsIjoiYWxleGlzcm9tYW41OTg0MEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZmFjZWJvb2suY29tIjpbIjE3MTkwODQ0MTQ5NDA4MjUiXSwiZW1haWwiOlsiYWxleGlzcm9tYW41OTg0MEBnbWFpbC5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJmYWNlYm9vay5jb2    ],
+   ""redirectEventId"": null,
+   ""stsTokenManager"": Object {
+     ""accessToken"": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImEyYjkxODJiMWI0NmNiN2ZjN2MzMTFlZTgwMjFhZDY1MmVlMjc2MjIiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiQWxleCBSbSIsInBpY3R1cmUiOiJodHRwczovL2dyYXBoLmZhY2Vib29rLmNvbS8xNzE5MDg0NDE0OTQwODI1L3BpY3R1cmUiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vdGluZGVyY2xvbmUtNTEzYjIiLCJhdWQiOiJ0aW5kZXJjbG9uZS01MTNiMiIsImF1dGhfdGltZSI6MTYxMTMzMTU5NiwidXNlcl9pZCI6InJwQkhucjFJS3hjaGFvNnNPRVdXeHBRMHNvVTIiLCJzdWIiOiJycEJIbnIxSUt4Y2hhbzZzT0VXV3hwUTBzb1UyIiwiaWF0IjoxNjExMzMxNTk2LCJleHAiOjE2MTEzMzUxOTYsImVtYWlsIjoiYWxleGlzcm9tYW41OTg0MEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZmFjZWJvb2suY29tIjpbIjE3MTkwODQ0MTQ5NDA4MjUiXSwiZW1haWwiOlsiYWxleGlzcm9tYW41OTg0MEBnbWFpbC5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJmYWNlYm9vay5jb20ifX0.Aix5Ak0AlG1tD_1P3SOSwCSGgg4YVhHeV3A1ATkvW3qfj-avYkEzG89-LsYD3B5P8AQJuo1acwgg104ZJ660luKaWm26krKKldioNqsGfWIoKxqRttzeqfPxcg7QSZKprJO3Av7sSAt6sL_lN2KKwFev1E_4z-NyyIqKLgMSaW96P7jKyO3wOLeeac0CH2pCalmMxJYwUIdrUCGrQatS9bY-OXSTBRnF2HOtR7LVhaNmnC3sVxLunJ7eIsl1ftVFMGRFLxMHoJZzE-Afq7gPO9an5sRyZQylWn2aJ95Tgsx63FqVvfz7fvk-vB1LweXuGFHWwyIIit1IvzwpOJB6Ng",
+     ""apiKey"": "AIzaSyDEx5R8bmogfuNEfDx3XbqEY5wRoAqCZZs",
+     ""expirationTime"": 1611335192959,
+     ""refreshToken"": "AOvuKvS8qo5ZCxdQjoTdOYfEqVjMrQs5ou6nS1ZLv-bKyBIxUcBa5ERM-laNb6S3UmUyyTPpM2h9yP6qibEXsqVf1k8dPZWUn86lSuAzr5EOcOjrF6CQB2j2CVUT4agNol5xRd37ammuAw7seLzmKcxZVJHzTtaWUA7yWEeGEjvGooCVRGxJ-m-I5sGDLy0wQZ5SvezUApOxArf8JVuSrcfNkjCDHBOdthHkzR2BBK3vC4oDM4H8RfDyokPi3oIYbprNfeFE4Sb7jc0ZHXbZLc8ohF5teW3KHPaqPlJcHrCEpB7UFzQeH2TuW0go_Z_2UTNeECpYNdEYY_treOKZAOWqm_Xhg0ITHqmu8RoX6j2rCJUxmXMN1Ws",
+   },
+   ""tenantId"": null,
+   ""uid"": "rpBHnr1IKxchao6sOEWWxpQ0soU2",
+ },
+}
+Face Login Error: Reference.child failed: First argument was an invalid path = "[
+           "object Object"
+        ]". Paths must be non-empty strings and can't contain ""."", ""#"", ""$"", "[
+           ", or "
+        ]"
+0ifX0.Aix5Ak0AlG1tD_1P3SOSwCSGgg4YVhHeV3A1ATkvW3qfj-avYkEzG89-LsYD3B5P8AQJuo1acwgg104ZJ660luKaWm26krKKldioNqsGfWIoKxqRttzeqfPxcg7QSZKprJO3Av7sSAt6sL_lN2KKwFev1E_4z-NyyIqKLgMSaW96P7jKyO3wOLeeac0CH2pCalmMxJYwUIdrUCGrQatS9bY-OXSTBRnF2HOtR7LVhaNmnC3sVxLunJ7eIsl1ftVFMGRFLxMHoJZzE-Afq7gPO9an5sRyZQylWn2aJ95Tgsx63FqVvfz7fvk-vB1LweXuGFHWwyIIit1IvzwpOJB6Ng",
+        "apiKey":"AIzaSyDEx5R8bmogfuNEfDx3XbqEY5wRoAqCZZs",
+        "expirationTime":1611335192959,
+        "refreshToken":"AOvuKvS8qo5ZCxdQjoTdOYfEqVjMrQs5ou6nS1ZLv-bKyBIxUcBa5ERM-laNb6S3UmUyyTPpM2h9yP6qibEXsqVf1k8dPZWUn86lSuAzr5EOcOjrF6CQB2j2CVUT4agNol5xRd37ammuAw7seLzmKcxZVJHzTtaWUA7yWEeGEjvGooCVRGxJ-m-I5sGDLy0wQZ5SvezUApOxArf8JVuSrcfNkjCDHBOdthHkzR2BBK3vC4oDM4H8RfDyokPi3oIYbprNfeFE4Sb7jc0ZHXbZLc8ohF5teW3KHPaqPlJcHrCEpB7UFzQeH2TuW0go_Z_2UTNeECpYNdEYY_treOKZAOWqm_Xhg0ITHqmu8RoX6j2rCJUxmXMN1Ws"
+     },
+     "tenantId":null,
+     "uid":"rpBHnr1IKxchao6sOEWWxpQ0soU2"
+  }
 }
