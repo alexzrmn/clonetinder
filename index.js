@@ -8,7 +8,7 @@ import Home from "./screens/Home";
 
 const firebaseConfig = {
   apiKey: "AIzaSyDEx5R8bmogfuNEfDx3XbqEY5wRoAqCZZs",
-  databaseURL: "https://tinderclone-513b2-default-rtdb.firebaseio.com",
+  databaseURL: "https://tinderclone-513b2-default-rtdb.firebaseio.com"
 };
 
 if (!firebase.apps.length) {
