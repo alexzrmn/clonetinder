@@ -5,7 +5,14 @@ import FacebookButton from '../components/FacebookButton';
 import firebase from 'firebase';
 
 export default class Login extends Component {
-
+    constructor(props) {
+      super(props) 
+      firebase.auth().onAuthStateChanged(user => {
+        if(user) {
+          this.props.navigation.navigate('Home');
+        }
+      });
+    }
     authenticate = (token) => {
       const provider = firebase.auth.FacebookAuthProvider;
       const credential = provider.credential(token);
@@ -13,7 +20,6 @@ export default class Login extends Component {
     }
 
     createUser = (uid, userData) => {
-      console.log(uid);
       firebase.database().ref("users").child(uid).update(userData);
     }
 
@@ -29,9 +35,7 @@ export default class Login extends Component {
             const fields = ['id', 'first_name', 'last_name', 'gender', 'birthday']
             const response = await fetch(`https://graph.facebook.com/me?fields=${fields.toString()}&access_token=${token}`);
             const userData = await response.json();
-            console.log(userData);
             const {user} = await this.authenticate(token);
-            console.log(user.uid);
             this.createUser(user.uid, userData);
           } else {
             // type === 'cancel'
