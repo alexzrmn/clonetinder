@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { View } from "react-native";
 import Card from "../components/Card";
 import * as firebase from 'firebase';
+import * as Location from 'expo-location';
 
 export default class Home extends Component {
   constructor(props) {
@@ -11,6 +12,8 @@ export default class Home extends Component {
       profileIndex: 0,
       profiles: []
     };
+
+    this.updateUserLocation();
     
     firebase.database().ref().child('users').once('value', (snap) => {
       let profiles = []
@@ -22,7 +25,15 @@ export default class Home extends Component {
     })
   }
 
-  
+  updateUserLocation = async () => {
+    const { status } = await Location.requestPermissionsAsync();
+    if(status === 'granted') {
+      const location = await Location.getCurrentPositionAsync({ enableHighAccuracy: false});
+      console.log('granted !!', location);
+    } else {
+      console.log('Permission denied');
+    }
+  }
 
   nextCard = () => {
     this.setState({ profileIndex: this.state.profileIndex + 1 });
