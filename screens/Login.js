@@ -3,13 +3,19 @@ import React, {Component} from 'react';
 import {View, StyleSheet} from 'react-native';
 import FacebookButton from '../components/FacebookButton';
 import firebase from 'firebase';
+import { StackActions } from 'react-navigation';
 
 export default class Login extends Component {
     constructor(props) {
       super(props)
       firebase.auth().onAuthStateChanged(user => {
         if(user) {
-          this.props.navigation.navigate('Home', {uid: user.uid});
+          this.props.navigation.dispatch({
+            ...StackActions.replace('Home', {
+              uid: user.uid,
+              screen: 'Home'
+            })
+          })
         }
       });
     }
