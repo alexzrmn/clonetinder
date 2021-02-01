@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { View } from "react-native";
 import Card from "../components/Card";
+import SimpleScroller from '../components/SimpleScroller';
 import * as firebase from 'firebase';
 import * as Location from 'expo-location';
 import {GeoFire} from "geofire";
@@ -62,26 +63,31 @@ export default class Home extends Component {
     this.setState({ profileIndex: this.state.profileIndex + 1 });
   };
 
-  render() {
-
-    const { profiles } = this.state;
-    const { profileIndex } = this.state;
-      
+  cardStack = () => {
+    const {profileIndex} = this.state
     return (
-      <View style={{ flex: 1 }}>
-        {profiles
-          .slice(profileIndex, profileIndex + profiles.length)
-          .reverse()
-          .map((profile) => {
-            return (
-              <Card
-                key={profile.id}
-                profile={profile}
-                onSwipeOff={this.nextCard}
-              />
-            );
-          })}
+      <View style={{flex:1}}>
+        {this.state.profiles.slice(profileIndex, profileIndex + 3).reverse().map((profile) => {
+          return (
+            <Card
+              key={profile.id}
+              profile={profile}
+              onSwipeOff={this.nextCard}
+            />
+          )
+        })}
       </View>
+    )
+  }
+
+  render() {      
+    return (
+      <SimpleScroller
+        screens={[
+          <View style={{flex: 1, backgroundColor: 'red' }} />,
+          this.cardStack()
+        ]}
+      />
     );
   }
 }
