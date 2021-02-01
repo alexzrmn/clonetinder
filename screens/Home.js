@@ -15,10 +15,9 @@ export default class Home extends Component {
       profileIndex: 0,
       profiles: []
     };
-
-    this.updateUserLocation(this.props.route.params.uid);
-    this.getProfiles(this.props.route.params.uid);
-    console.log(this.props.route.params.uid)
+    const {uid} = this.props.route.params;
+    this.updateUserLocation(uid);
+    this.getProfiles(uid);
   }
 
   getUser = (uid) => {
@@ -33,10 +32,10 @@ export default class Home extends Component {
       center: userLocation,
       radius: 10
     });
-    geoQuerry.on('key_entered', async (key, location, distance) => {
-      console.log(`${key} at ${location} is ${distance} km from the center`);
+    geoQuerry.on('key_entered', async (uid, location, distance) => {
+      console.log(`${uid} at ${location} is ${distance} km from the center`);
       const user = await this.getUser(uid);
-      console.log(user.val().first_name);
+      console.log(user.val().name);
       const profiles = [...this.state.profiles, user.val()];
       this.setState({profiles});
     })
