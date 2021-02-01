@@ -1,0 +1,257 @@
+{
+    "users": 
+    [
+        {
+            "uid": "KcEv8h7GrwAvAf4VTnW",
+            "name": "Candice",
+            "id": "259389830744794",
+            "birthday": "10/18/1986",
+            "gender": "Female",
+            "orientation": "Gay",
+            "accountType": "Single Female",
+            "lookingFor": {
+                "Female & Female Couple": true,
+                "Male & Female Couple": true,
+                "Male & Male Couple ": true,
+                "Single Male":true,
+                "Single Female":true,
+                "Trans":true
+            },
+            "images": {
+                "ab": {
+                    "url": "f1.jpg"
+                }
+            },
+            "partner": {
+                "name": "Tim",
+                "birthday": "12/12/1983",
+                "orientation": "Gay",
+                "gender": "Male"
+            },
+            "work": {
+                "0": {
+                    "position" : {
+                        "name": "Supermodel"
+                    }
+                }
+            },
+            "showMen": true,
+            "showWomen": true,
+            "ageRange": {
+                "0": 20,
+                "1": 30
+            },
+            "url": "https://graph.facebook.com/259389830744794/picture?height=500"
+        },
+        {
+            "uid": "KcEv8jFM0jfqgVOTcTT",
+            "name": "Alessandra",
+            "id": "720115413",
+            "birthday": "1/10/1989",
+            "gender": "Female",
+            "orientation": "Bisexual",
+            "accountType": "Single Female",
+            "lookingFor": {
+                "Female & Female Couple": true,
+                "Male & Female Couple": true,
+                "Male & Male Couple ": true,
+                "Single Male":false,
+                "Single Female":true,
+                "Trans":true
+            },
+            "images": {
+                "ab": {
+                    "url": "f2.jpg"
+                }
+            },
+            "partner": {
+                "name": "Tim",
+                "birthday": "12/12/1983",
+                "orientation": "Gay",
+                "gender": "Male"
+            },
+            "work": {
+                "0": {
+                    "position" : {
+                        "name": "Dancer"
+                    }
+                }
+            },
+            "showMen": true,
+            "showWomen": true,
+            "ageRange": {
+                "0": 20,
+                "1": 30
+            },
+            "url": "https://graph.facebook.com/720115413/picture?height=500"
+        },
+        {
+            "uid": "KcEv8jqbl_M1AVjDxAw",
+            "name": "Miranda",
+            "id": "169571172540",
+            "birthday": "12/12/1983",
+            "gender": "Female",
+            "orientation": "Straight",
+            "accountType": "Male & Female Couple",
+            "lookingFor": {
+                "Female & Female Couple": true,
+                "Male & Female Couple": false,
+                "Male & Male Couple ": true,
+                "Single Male":true,
+                "Single Female":true,
+                "Trans":true
+            },
+            "images": {
+                "ab": {
+                    "url": "mf.jpg"
+                }
+            },
+            "partner": {
+                "name": "Tim",
+                "birthday": "12/12/1983",
+                "orientation": "Gay",
+                "gender": "Male"
+            },
+            "work": {
+                "0": {
+                    "position" : {
+                        "name": "Doctor"
+                    }
+                }
+            },
+            "showMen": true,
+            "showWomen": true,
+            "ageRange": {
+                "0": 20,
+                "1": 30
+            },
+            "url": "https://graph.facebook.com/169571172540/picture?height=500"
+        },
+        {
+            "uid": "KcEv8lnIJF643C21Sls",
+            "name": "Alicia",
+            "id": "1476279359358140",
+            "birthday": "2/11/1990",
+            "gender": "Female",
+            "orientation": "Gay",
+            "accountType": "Male & Female Couple",
+            "lookingFor": {
+                "Female & Female Couple": true,
+                "Male & Female Couple": false,
+                "Male & Male Couple ": false,
+                "Single Male":true,
+                "Single Female":true,
+                "Trans":true
+            },
+            "images": {
+                "ab": {
+                    "url": "mf2.jpg"
+                }
+            },
+            "partner": {
+                "name": "Tim",
+                "birthday": "12/12/1983",
+                "orientation": "Gay",
+                "gender": "Male"
+            },
+            "work": {
+                "0": {
+                    "position" : {
+                        "name": "Comedian"
+                    }
+                }
+            },
+            "showMen": true,
+            "showWomen": true,
+            "ageRange": {
+                "0": 20,
+                "1": 30
+            },
+            "url": "https://graph.facebook.com/1476279359358140/picture?height=500"
+        },
+        {
+            "uid": "KcEv8mRShwiwncejWHf",
+            "name": "Behati",
+            "id": "1492309647685574",
+            "birthday": "2/23/1991",
+            "gender": "Female",
+            "orientation": "Bisexual",
+            "accountType": "Female & Female Couple",
+            "lookingFor": {
+                "Female & Female Couple": true,
+                "Male & Female Couple": false,
+                "Male & Male Couple ": false,
+                "Single Male":true,
+                "Single Female":true,
+                "Trans":true
+            },
+            "images": {
+                "ab": {
+                    "url": "ff.jpg"
+                }
+            },
+            "partner": {
+                "name": "Tim",
+                "birthday": "12/12/1983",
+                "orientation": "Gay",
+                "gender": "Male"
+            },
+            "work": {
+                "0": {
+                    "position" : {
+                        "name": "Artist"
+                    }
+                }
+            },
+            "showMen": true,
+            "showWomen": true,
+            "ageRange": {
+                "0": 20,
+                "1": 30
+            },
+            "url": "https://graph.facebook.com/1492309647685574/picture?height=500"
+        },
+        {
+            "uid": "KcEv8jFB0jfqgVOTcTT",
+            "name": "Broderick",
+            "id": "100013489410724",
+            "birthday": "1/10/1986",
+            "gender": "Male",
+            "orientation": "Straight",
+            "accountType": "Male & Male Couple",
+            "lookingFor": {
+                "Female & Female Couple": true,
+                "Male & Female Couple": true,
+                "Male & Male Couple ": true,
+                "Single Male":false,
+                "Single Female":true,
+                "Trans":false
+            },
+            "images": {
+                "ab": {
+                    "url": "mm2.jpg"
+                }
+            },
+            "partner": {
+                "name": "Tim",
+                "birthday": "12/12/1983",
+                "orientation": "Gay",
+                "gender": "Male"
+            },
+            "work": {
+                "0": {
+                    "position" : {
+                        "name": "Architec"
+                    }
+                }
+            },
+            "showMen": true,
+            "showWomen": true,
+            "ageRange": {
+                "0": 20,
+                "1": 30
+            },
+            "url": "https://graph.facebook.com/169571172540/picture?height=500"
+        }  
+    ]
+}

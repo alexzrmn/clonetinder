@@ -54,10 +54,12 @@ export default class Card extends Component {
   }
 
   render() {
-    const { birthday, name, bio, id } = this.props.profile;
+    const { birthday, name, work, id } = this.props.profile;
+    const bio = (work && work[0] && work[0].position) ? work[0].position.name : null
     const profileBday = moment(birthday, "MM/DD/YYYY");
     const profileAge = moment().diff(profileBday, "years");
     const fbImage = `https://graph.facebook.com/${id}/picture?height=500`;
+    
     const rotateCard = this.pan.x.interpolate({
       inputRange: [-200, 0, 200],
       outputRange: ["10deg", "0deg", "-10deg"],
@@ -82,7 +84,7 @@ export default class Card extends Component {
           <Text style={{ fontSize: 20 }}>
             {name}, {profileAge}
           </Text>
-          <Text style={{ fontSize: 15, color: "darkgrey" }}>{bio}</Text>
+          {bio ? <Text style={{fontSize:15, color:'darkgrey'}}>{bio}</Text> : <View />}
         </View>
       </Animated.View>
     );

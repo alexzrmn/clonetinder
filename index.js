@@ -31,7 +31,7 @@ function MyStack(props) {
         <AppStack.Screen 
             name="Home" 
             component={Home}
-            options={{uid: console.log(props.route)}}
+            options={{uid: props.route}}
         />
       </AppStack.Navigator>
     );
