@@ -6,13 +6,14 @@ import firebase from 'firebase';
 
 export default class Login extends Component {
     constructor(props) {
-      super(props) 
+      super(props)
       firebase.auth().onAuthStateChanged(user => {
         if(user) {
-          this.props.navigation.navigate('Home');
+          this.props.navigation.navigate('Home', {uid: user.uid});
         }
       });
     }
+
     authenticate = (token) => {
       const provider = firebase.auth.FacebookAuthProvider;
       const credential = provider.credential(token);

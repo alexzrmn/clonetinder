@@ -19,18 +19,19 @@ if (!firebase.apps.length) {
 
 const AppStack = createStackNavigator();
 
-function MyStack() {
+function MyStack(props) {
     return (
       <AppStack.Navigator
         headerMode='none'
       >
         <AppStack.Screen 
             name="Login" 
-            component={Login} 
+            component={Login}
         />
         <AppStack.Screen 
             name="Home" 
-            component={Home} 
+            component={Home}
+            options={{uid: console.log(props.route)}}
         />
       </AppStack.Navigator>
     );

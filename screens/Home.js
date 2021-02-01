@@ -3,20 +3,24 @@ import { View } from "react-native";
 import Card from "../components/Card";
 import * as firebase from 'firebase';
 import * as Location from 'expo-location';
+import {GeoFire} from "geofire";
+
+require('@firebase/database');
 
 export default class Home extends Component {
   constructor(props) {
     super(props);
-    
+
     this.state = {
       profileIndex: 0,
       profiles: []
     };
 
-    this.updateUserLocation();
-    
+    this.updateUserLocation(this.props.route.params.uid);
+    console.log(this.props);
+
     firebase.database().ref().child('users').once('value', (snap) => {
-      let profiles = []
+      let profiles = [];
       snap.forEach((profile) => {
         const {name, bio, birthday, id} = profile.val()
         profiles.push({name, bio, birthday, id})
@@ -25,10 +29,15 @@ export default class Home extends Component {
     })
   }
 
-  updateUserLocation = async () => {
+  updateUserLocation = async (uid) => {
     const { status } = await Location.requestPermissionsAsync();
     if(status === 'granted') {
       const location = await Location.getCurrentPositionAsync({ enableHighAccuracy: false});
+      const {latitude, longitude} = location.coords;
+
+      const geoFireRef = new GeoFire(firebase.database().ref('geoData'));
+      geoFireRef.set(uid, [latitude, longitude]);
+
       console.log('granted !!', location);
     } else {
       console.log('Permission denied');
