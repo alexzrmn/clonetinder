@@ -1,23 +1,28 @@
 import * as Facebook from 'expo-facebook';
 import React, {Component} from 'react';
-import {View, StyleSheet} from 'react-native';
+import {View, StyleSheet, ActivityIndicator} from 'react-native';
 import FacebookButton from '../components/FacebookButton';
 import firebase from 'firebase';
-import { StackActions } from 'react-navigation';
 
 export default class Login extends Component {
     constructor(props) {
       super(props)
-      this._isMounted = false;
+      // firebase.auth().signOut()
+      this.state = {
+        isMounted: true,
+        showSpinner: true
+      }
       firebase.auth().onAuthStateChanged(user => {
         if(user) {
           this.props.navigation.replace('Home', {uid: user.uid})
+        } else {
+          this.setState({showSpinner: false});
         }
       });
     }
 
     componentDidMount() {
-      this._isMounted = true;
+      this.setState({isMounted: false});
     }
 
     authenticate = (token) => {
@@ -31,6 +36,7 @@ export default class Login extends Component {
     }
 
     login = async () => {
+      this.setState({showSpinner: true});
       try {
           await Facebook.initializeAsync({
             appId: '425339328812598'
@@ -55,9 +61,11 @@ export default class Login extends Component {
     render() {
       return (
         <View style={styles.container}>
-          <FacebookButton
-            onPress={this.login}
-          />
+          {this.state.showSpinner ?
+            <ActivityIndicator animating={this.state.showSpinner} /> :
+            <FacebookButton onPress={this.login} />
+          }
+          
         </View>
       )
     }
