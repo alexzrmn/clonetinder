@@ -44,8 +44,9 @@ export default class Home extends Component {
 
   updateUserLocation = async (uid) => {
     const { status } = await Location.requestPermissionsAsync();
+    console.log(`status : ${status}`)
     if(status === 'granted') {
-      const location = await Location.getCurrentPositionAsync({ enableHighAccuracy: false});
+      // const location = await Location.getCurrentPositionAsync({ enableHighAccuracy: false});
       // const {latitude, longitude} = location.coords;
       const latitude = 37.39239;
       const longitude = -122.09072;
@@ -53,7 +54,7 @@ export default class Home extends Component {
       const geoFireRef = new GeoFire(firebase.database().ref('geoData'));
       geoFireRef.set(uid, [latitude, longitude]);
 
-      console.log('granted !!', location);
+      console.log('granted !!');
     } else {
       console.log('Permission denied');
     }

@@ -8,16 +8,16 @@ import { StackActions } from 'react-navigation';
 export default class Login extends Component {
     constructor(props) {
       super(props)
+      this._isMounted = false;
       firebase.auth().onAuthStateChanged(user => {
         if(user) {
-          this.props.navigation.dispatch({
-            ...StackActions.replace('Home', {
-              uid: user.uid,
-              screen: 'Home'
-            })
-          })
+          this.props.navigation.replace('Home', {uid: user.uid})
         }
       });
+    }
+
+    componentDidMount() {
+      this._isMounted = true;
     }
 
     authenticate = (token) => {
