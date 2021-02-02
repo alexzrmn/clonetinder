@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { View } from "react-native";
 import Card from "../components/Card";
 import SimpleScroller from '../components/SimpleScroller';
+import Profile from './Profile';
 import * as firebase from 'firebase';
 import * as Location from 'expo-location';
 import {GeoFire} from "geofire";
@@ -14,9 +15,10 @@ export default class Home extends Component {
 
     this.state = {
       profileIndex: 0,
-      profiles: []
+      profiles: [],
+      user: this.props.route.params.user
     };
-    const {uid} = this.props.route.params;
+    const {uid} = this.props.route.params.user;
     this.updateUserLocation(uid);
     this.getProfiles(uid);
   }
@@ -85,7 +87,7 @@ export default class Home extends Component {
     return (
       <SimpleScroller
         screens={[
-          <View style={{flex: 1, backgroundColor: 'red' }} />,
+          <Profile user={this.state.user} />,
           this.cardStack()
         ]}
       />

@@ -7,18 +7,29 @@ import firebase from 'firebase';
 export default class Login extends Component {
     constructor(props) {
       super(props)
-      // firebase.auth().signOut()
+      //firebase.auth().signOut()
       this.state = {
         isMounted: true,
         showSpinner: true
       }
-      firebase.auth().onAuthStateChanged(user => {
-        if(user) {
-          this.props.navigation.replace('Home', {uid: user.uid})
+      firebase.auth().onAuthStateChanged(auth => {
+        if(auth) {
+          this.firebaseRef = firebase.database().ref('users');
+          this.firebaseRef.child(auth.uid).on('value', snap => {
+            const user = snap.val();
+            if(user != null) {
+              this.firebaseRef.child(auth.uid).off('value')
+              this.goHome(user)
+            }
+          })
         } else {
           this.setState({showSpinner: false});
         }
       });
+    }
+
+    goHome = (user) => {
+      this.props.navigation.replace('Home', {user})
     }
 
     componentDidMount() {
@@ -32,7 +43,12 @@ export default class Login extends Component {
     }
 
     createUser = (uid, userData) => {
-      firebase.database().ref("users").child(uid).update(userData);
+      const defaults = {
+        uid,
+        distance: 5,
+        ageRange: [18, 25]
+      }
+      firebase.database().ref("users").child(uid).update({...userData, ...defaults});
     }
 
     login = async () => {
