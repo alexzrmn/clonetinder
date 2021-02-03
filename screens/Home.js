@@ -46,9 +46,16 @@ export default class Home extends Component {
     return firebase.database().ref('users').child(uid).once('value');
   }
 
+  getSwiped = (uid) => {
+    return firebase.database().ref('relationships').child(uid).child('liked')
+      .once('value')
+      .then(snap => snap.val() || {})
+  }
+
   getProfiles = async (uid, distance) => {
     const geofireRef = new GeoFire(firebase.database().ref('geoData'));
     const userLocation = await geofireRef.get(uid);
+    const swipedProfiles = await this.getSwiped(uid);
     console.log('userLocation', userLocation);
     const geoQuerry = geofireRef.query({
       center: userLocation,
@@ -59,7 +66,7 @@ export default class Home extends Component {
       const user = await this.getUser(uid);
       console.log(user.val().name);
       const profiles = [...this.state.profiles, user.val()];
-      const filtered = filter(profiles, this.state.user)
+      const filtered = filter(profiles, this.state.user, swipedProfiles)
       this.setState({profiles: filtered});
     })
   }
@@ -82,8 +89,23 @@ export default class Home extends Component {
     }
   }
 
-  nextCard = () => {
+  relate = (userUid, profileUid, status) => {
+    let relationUpdate = {};
+    relationUpdate[`${userUid}/liked/${profileUid}`] = status
+    relationUpdate[`${profileUid}/likedBack/${userUid}`] = status
+
+    firebase.database().ref('relationships').update(relationUpdate)
+  }
+
+  nextCard = (swipedRight, profileUid) => {
+    const userUid = this.state.user.uid;
     this.setState({ profileIndex: this.state.profileIndex + 1 });
+    if (swipedRight) {
+      this.relate(userUid, profileUid, true)
+      this.relate(profileUid, userUid, true)
+    } else {
+      this.relate(userUid, profileUid, false)
+    }
   };
 
   cardStack = () => {
