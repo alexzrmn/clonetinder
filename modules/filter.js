@@ -36,4 +36,4 @@ export default (profiles, user, swipedProfiles) => {
     })
 
     return filterSwiped;
-}
+} 

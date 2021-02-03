@@ -70,7 +70,7 @@ export default class SimpleScroller extends Component {
 const styles = StyleSheet.create({
     scroller: {
         flex: 1,
-        backgroundColor: 'blue',
+        backgroundColor: 'beige',
         flexDirection: 'row'
     }
 });

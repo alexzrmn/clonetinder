@@ -89,7 +89,7 @@ export default class Profile extends Component {
 const styles = StyleSheet.create({
   container: {
     flex:1,
-    backgroundColor:'white',
+    backgroundColor:'beige',
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',

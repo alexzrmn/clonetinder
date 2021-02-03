@@ -3,6 +3,7 @@ import { View } from "react-native";
 import Card from "../components/Card";
 import SimpleScroller from '../components/SimpleScroller';
 import Profile from './Profile';
+import Matches from './Matches'
 import * as firebase from 'firebase';
 import * as Location from 'expo-location';
 import {GeoFire} from "geofire";
@@ -130,7 +131,8 @@ export default class Home extends Component {
       <SimpleScroller
         screens={[
           <Profile user={this.state.user} />,
-          this.cardStack()
+          this.cardStack(),
+          <Matches />
         ]}
       />
     );
