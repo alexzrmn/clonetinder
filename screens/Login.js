@@ -58,7 +58,7 @@ export default class Login extends Component {
             appId: '425339328812598'
           });
           const {type, token} = await Facebook.logInWithReadPermissionsAsync({
-            permissions: ['public_profile', 'email', 'user_birthday'],
+            permissions: ['public_profile', 'email', 'user_birthday', 'user_gender'],
           });
           if (type === 'success') {
             const fields = ['id', 'first_name', 'last_name', 'gender', 'birthday']

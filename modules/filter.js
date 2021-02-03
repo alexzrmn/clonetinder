@@ -5,7 +5,6 @@ export default (profiles, user) => {
 
   const filterGender = _.filter(rejectMe, profile => {
     const userShowMen = user.showMen && profile.gender === 'male'
-    
     const userShowWomen = user.showWomen && profile.gender === 'female'
 
     const profileShowMen = profile.showMen && user.gender === 'male'
