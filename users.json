@@ -1,4 +1,79 @@
-{
+{   
+    "geoData":
+    [
+        {
+            "uid": "KcEv8h7GrwAvAf4VTnW",
+            "g": "9q9hv2wpe8",
+            "l": {
+                "0": 37.401500,
+                "1": -122.104641
+            }
+        },
+        {
+            "uid": "KcEv8jFM0jfqgVOTcTT",
+            "g": "9q9hv6y05d",
+            "l": {
+                "0": 37.41258,
+                "1": -122.104641
+            }
+        },
+        {
+            "uid": "KcEv8jqbl_M1AVjDxAw",
+            "g": "9q9hwrph5v",
+            "l": {
+                "0": 37.392685,
+                "1": -122.059308
+            }
+        },
+        {
+            "uid": "KcEv8lnIJF643C21Sls",
+            "g": "9q9huj4wrw",
+            "l": {
+                "0": 37.426036,
+                "1": -122.164213
+            }
+        },
+        {
+            "uid": "KcEv8mRShwiwncejWHf",
+            "g": "9q9hxwtnyz",
+            "l": {
+                "0": 37.390418,
+                "1": -122.007
+            }
+        },
+        {
+            "uid": "KcEv8jFB0jfqgVOTcTT",
+            "g": "9q9hv6y05d",
+            "l": {
+                "0": 37.41258,
+                "1": -122.104641
+            }
+        },
+        {
+            "uid": "KcEv8h7GrwBvAf4VTnW",
+            "g": "9q9hv6y05d",
+            "l": {
+                "0": 37.401500,
+                "1": -122.104641
+            }
+        },
+        {
+            "uid": "KcEv8jqbl_M1CVjDxAw",
+            "g": "9q9hv6y05d",
+            "l": {
+                "0": 37.392685,
+                "1": -122.059308
+            }
+        },
+        {
+            "uid": "KcEv8jFB0jfqgVOTcTT",
+            "g": "9q9hv6y05d",
+            "l": {
+                "0": 37.426036,
+                "1": -122.164213
+            }
+        }
+    ],
     "users": 
     [
         {
@@ -6,28 +81,7 @@
             "name": "Candice",
             "id": "259389830744794",
             "birthday": "10/18/1986",
-            "gender": "Female",
-            "orientation": "Gay",
-            "accountType": "Single Female",
-            "lookingFor": {
-                "Female & Female Couple": true,
-                "Male & Female Couple": true,
-                "Male & Male Couple ": true,
-                "Single Male":true,
-                "Single Female":true,
-                "Trans":true
-            },
-            "images": {
-                "ab": {
-                    "url": "f1.jpg"
-                }
-            },
-            "partner": {
-                "name": "Tim",
-                "birthday": "12/12/1983",
-                "orientation": "Gay",
-                "gender": "Male"
-            },
+            "gender": "female",
             "work": {
                 "0": {
                     "position" : {
@@ -37,10 +91,6 @@
             },
             "showMen": true,
             "showWomen": true,
-            "ageRange": {
-                "0": 20,
-                "1": 30
-            },
             "url": "https://graph.facebook.com/259389830744794/picture?height=500"
         },
         {
@@ -48,28 +98,7 @@
             "name": "Alessandra",
             "id": "720115413",
             "birthday": "1/10/1989",
-            "gender": "Female",
-            "orientation": "Bisexual",
-            "accountType": "Single Female",
-            "lookingFor": {
-                "Female & Female Couple": true,
-                "Male & Female Couple": true,
-                "Male & Male Couple ": true,
-                "Single Male":false,
-                "Single Female":true,
-                "Trans":true
-            },
-            "images": {
-                "ab": {
-                    "url": "f2.jpg"
-                }
-            },
-            "partner": {
-                "name": "Tim",
-                "birthday": "12/12/1983",
-                "orientation": "Gay",
-                "gender": "Male"
-            },
+            "gender": "female",
             "work": {
                 "0": {
                     "position" : {
@@ -79,10 +108,6 @@
             },
             "showMen": true,
             "showWomen": true,
-            "ageRange": {
-                "0": 20,
-                "1": 30
-            },
             "url": "https://graph.facebook.com/720115413/picture?height=500"
         },
         {
@@ -90,28 +115,7 @@
             "name": "Miranda",
             "id": "169571172540",
             "birthday": "12/12/1983",
-            "gender": "Female",
-            "orientation": "Straight",
-            "accountType": "Male & Female Couple",
-            "lookingFor": {
-                "Female & Female Couple": true,
-                "Male & Female Couple": false,
-                "Male & Male Couple ": true,
-                "Single Male":true,
-                "Single Female":true,
-                "Trans":true
-            },
-            "images": {
-                "ab": {
-                    "url": "mf.jpg"
-                }
-            },
-            "partner": {
-                "name": "Tim",
-                "birthday": "12/12/1983",
-                "orientation": "Gay",
-                "gender": "Male"
-            },
+            "gender": "female",
             "work": {
                 "0": {
                     "position" : {
@@ -121,10 +125,6 @@
             },
             "showMen": true,
             "showWomen": true,
-            "ageRange": {
-                "0": 20,
-                "1": 30
-            },
             "url": "https://graph.facebook.com/169571172540/picture?height=500"
         },
         {
@@ -132,28 +132,7 @@
             "name": "Alicia",
             "id": "1476279359358140",
             "birthday": "2/11/1990",
-            "gender": "Female",
-            "orientation": "Gay",
-            "accountType": "Male & Female Couple",
-            "lookingFor": {
-                "Female & Female Couple": true,
-                "Male & Female Couple": false,
-                "Male & Male Couple ": false,
-                "Single Male":true,
-                "Single Female":true,
-                "Trans":true
-            },
-            "images": {
-                "ab": {
-                    "url": "mf2.jpg"
-                }
-            },
-            "partner": {
-                "name": "Tim",
-                "birthday": "12/12/1983",
-                "orientation": "Gay",
-                "gender": "Male"
-            },
+            "gender": "female",
             "work": {
                 "0": {
                     "position" : {
@@ -163,10 +142,6 @@
             },
             "showMen": true,
             "showWomen": true,
-            "ageRange": {
-                "0": 20,
-                "1": 30
-            },
             "url": "https://graph.facebook.com/1476279359358140/picture?height=500"
         },
         {
@@ -174,28 +149,7 @@
             "name": "Behati",
             "id": "1492309647685574",
             "birthday": "2/23/1991",
-            "gender": "Female",
-            "orientation": "Bisexual",
-            "accountType": "Female & Female Couple",
-            "lookingFor": {
-                "Female & Female Couple": true,
-                "Male & Female Couple": false,
-                "Male & Male Couple ": false,
-                "Single Male":true,
-                "Single Female":true,
-                "Trans":true
-            },
-            "images": {
-                "ab": {
-                    "url": "ff.jpg"
-                }
-            },
-            "partner": {
-                "name": "Tim",
-                "birthday": "12/12/1983",
-                "orientation": "Gay",
-                "gender": "Male"
-            },
+            "gender": "female",
             "work": {
                 "0": {
                     "position" : {
@@ -205,10 +159,6 @@
             },
             "showMen": true,
             "showWomen": true,
-            "ageRange": {
-                "0": 20,
-                "1": 30
-            },
             "url": "https://graph.facebook.com/1492309647685574/picture?height=500"
         },
         {
@@ -216,28 +166,7 @@
             "name": "Broderick",
             "id": "100013489410724",
             "birthday": "1/10/1986",
-            "gender": "Male",
-            "orientation": "Straight",
-            "accountType": "Male & Male Couple",
-            "lookingFor": {
-                "Female & Female Couple": true,
-                "Male & Female Couple": true,
-                "Male & Male Couple ": true,
-                "Single Male":false,
-                "Single Female":true,
-                "Trans":false
-            },
-            "images": {
-                "ab": {
-                    "url": "mm2.jpg"
-                }
-            },
-            "partner": {
-                "name": "Tim",
-                "birthday": "12/12/1983",
-                "orientation": "Gay",
-                "gender": "Male"
-            },
+            "gender": "male",
             "work": {
                 "0": {
                     "position" : {
@@ -247,11 +176,58 @@
             },
             "showMen": true,
             "showWomen": true,
-            "ageRange": {
-                "0": 20,
-                "1": 30
-            },
             "url": "https://graph.facebook.com/169571172540/picture?height=500"
-        }  
+        },  
+        {
+            "uid": "KcEv8h7GrwBvAf4VTnW",
+            "name": "Nick",
+            "id": "131180735372",
+            "birthday": "10/18/1988",
+            "gender": "male",
+            "work": {
+                "0": {
+                    "position" : {
+                        "name": "Actuary"
+                    }
+                }
+            },
+            "showMen": true,
+            "showWomen": true,
+            "url": "https://graph.facebook.com/131180735372/picture?height=500"
+        },
+        {
+            "uid": "KcEv8jqbl_M1CVjDxAw",
+            "name": "Andy",
+            "id": "100005761033050",
+            "birthday": "12/12/1993",
+            "gender": "male",
+            "work": {
+                "0": {
+                    "position" : {
+                        "name": "Chef"
+                    }
+                }
+            },
+            "showMen": true,
+            "showWomen": true,
+            "url": "https://graph.facebook.com/100005761033050/picture?height=500"
+        },
+        {
+            "uid": "KcEv8lvIJF643C21Sls",
+            "name": "Julian",
+            "id": "607685913",
+            "birthday": "2/11/1980",
+            "gender": "male",
+            "work": {
+                "0": {
+                    "position" : {
+                        "name": "developpeur"
+                    }
+                }
+            },
+            "showMen": true,
+            "showWomen": true,
+            "url": "https://graph.facebook.com/100005761033050/picture?height=500"
+        }
     ]
 }
