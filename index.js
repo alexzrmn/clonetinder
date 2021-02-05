@@ -6,6 +6,7 @@ import { NavigationContainer } from '@react-navigation/native';
 
 import Login from "./screens/Login";
 import Home from "./screens/Home";
+import Chat  from "./screens/Chat";
 
 
 const firebaseConfig = {
@@ -32,6 +33,10 @@ function MyStack(props) {
             name="Home" 
             component={Home}
             options={{uid: props.route}}
+        />
+        <AppStack.Screen 
+            name="Chat" 
+            component={Chat}
         />
       </AppStack.Navigator>
     );

@@ -7,7 +7,7 @@ import firebase from 'firebase';
 export default class Login extends Component {
     constructor(props) {
       super(props)
-      firebase.auth().signOut()
+      // firebase.auth().signOut()
       this.state = {
         isMounted: true,
         showSpinner: true

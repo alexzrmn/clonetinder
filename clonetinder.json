@@ -1,0 +1,396 @@
+{
+  "geoData" : {
+    "-KcEv8h7GrwAvAf4VTnW" : {
+      "g" : "9q9hv2wpe8",
+      "l" : [ 37.4015, -122.104641 ],
+      "uid" : "-KcEv8h7GrwAvAf4VTnW"
+    },
+    "-KcEv8h7GrwBvAf4VTnW" : {
+      "g" : "9q9hv2wpe8",
+      "l" : [ 37.4015, -122.104641 ],
+      "uid" : "-KcEv8h7GrwBvAf4VTnW"
+    },
+    "-KcEv8jFB0jfqgVOTcTT" : {
+      "g" : "9q9hv6y05d",
+      "l" : [ 37.41258, -122.104641 ],
+      "uid" : "-KcEv8jFB0jfqgVOTcTT"
+    },
+    "-KcEv8jFM0jfqgVOTcTT" : {
+      "g" : "9q9hv6y05d",
+      "l" : [ 37.41258, -122.104641 ],
+      "uid" : "-KcEv8jFM0jfqgVOTcTT"
+    },
+    "-KcEv8jqbl_M1AVjDxAw" : {
+      "g" : "9q9hwrph5v",
+      "l" : [ 37.392685, -122.059308 ],
+      "uid" : "-KcEv8jqbl_M1AVjDxAw"
+    },
+    "-KcEv8jqbl_M1CVjDxAw" : {
+      "g" : "9q9hwrph5v",
+      "l" : [ 37.392685, -122.059308 ],
+      "uid" : "-KcEv8jqbl_M1CVjDxAw"
+    },
+    "-KcEv8lnIJF643C21Sls" : {
+      "g" : "9q9huj4wrw",
+      "l" : [ 37.426036, -122.164213 ],
+      "uid" : "-KcEv8lnIJF643C21Sls"
+    },
+    "-KcEv8lvIJF643C21Sls" : {
+      "g" : "9q9huj4wrw",
+      "l" : [ 37.426036, -122.164213 ],
+      "uid" : "-KcEv8lvIJF643C21Sls"
+    },
+    "-KcEv8mRShawwncejWHf" : {
+      "g" : "9q9hxwtnyz",
+      "l" : [ 37.390418, -122.007 ],
+      "uid" : "-KcEv8mRShawwncejWHf"
+    },
+    "-KcEv8mRShwiwncejWHf" : {
+      "g" : "9q9hxwtnyz",
+      "l" : [ 37.390418, -122.007 ],
+      "uid" : "-KcEv8mRShwiwncejWHf"
+    },
+    "-KcEv8n1rSqH23iGRkxr" : {
+      "g" : "9q9htzg8xq",
+      "l" : [ 37.396211, -122.085937 ],
+      "uid" : "-KcEv8n1rSqH23iGRkxr"
+    },
+    "-KcEv8n1rSqHasdviGRkxr" : {
+      "g" : "9q9htzg8xq",
+      "l" : [ 37.396211, -122.085937 ],
+      "uid" : "-KcEv8n1rSqHasdviGRkxr"
+    },
+    "-KcEv8nnJfm2kopcA5Qr" : {
+      "g" : "9q9hszqf03",
+      "l" : [ 37.393692, -122.125723 ],
+      "uid" : "-KcEv8nnJfm2kopcA5Qr"
+    },
+    "-KcEv8nnJfm3vaopcA5Qr" : {
+      "g" : "9q9hszqf03",
+      "l" : [ 37.393692, -122.125723 ],
+      "uid" : "-KcEv8nnJfm3vaopcA5Qr"
+    },
+    "nyI5g1jN1dQ3cPJTtg36ptmLn373" : {
+      ".priority" : "9q9htz062n",
+      "g" : "9q9htz062n",
+      "l" : [ 37.39239, -122.09072 ]
+    }
+  },
+  "messages" : {
+    "nyI5g1jN1dQ3cPJTtg36ptmLn373--KcEv8h7GrwAvAf4VTnW" : {
+      "-LNjusQ_07Po-O41smaH" : {
+        "_id" : "b39419e8-7106-42b0-9e9b-9c224aa42c47",
+        "createdAt" : 1538402256678,
+        "text" : "Hi",
+        "user" : {
+          "_id" : "nyI5g1jN1dQ3cPJTtg36ptmLn373",
+          "avatar" : "https://graph.facebook.com/10216196335044513/picture?height=80"
+        }
+      },
+      "-LNjutIqCp2vWyj3D8sp" : {
+        "_id" : "8ce0755a-1445-4c28-a214-8c08e7689bca",
+        "createdAt" : 1538402260279,
+        "text" : "HI",
+        "user" : {
+          "_id" : "-KcEv8h7GrwAvAf4VTnW",
+          "avatar" : "https://graph.facebook.com/259389830744794/picture?height=80"
+        }
+      },
+      "-LNjuudA2hvDiXVQRC5s" : {
+        "_id" : "6cf6adcd-75f6-4e25-973e-1023cc076125",
+        "createdAt" : 1538402265741,
+        "text" : "Zizi",
+        "user" : {
+          "_id" : "nyI5g1jN1dQ3cPJTtg36ptmLn373",
+          "avatar" : "https://graph.facebook.com/10216196335044513/picture?height=80"
+        }
+      },
+      "-LNjuvKuNYHh6UFrSxhV" : {
+        "_id" : "9781208c-2734-4fde-8131-756451f9d3ab",
+        "createdAt" : 1538402268603,
+        "text" : "Secure",
+        "user" : {
+          "_id" : "-KcEv8h7GrwAvAf4VTnW",
+          "avatar" : "https://graph.facebook.com/259389830744794/picture?height=80"
+        }
+      }
+    }
+  },
+  "relationships" : {
+    "-KcEv8h7GrwAvAf4VTnW" : {
+      "likedBack" : {
+        "nyI5g1jN1dQ3cPJTtg36ptmLn373" : true
+      }
+    },
+    "-KcEv8jFM0jfqgVOTcTT" : {
+      "likedBack" : {
+        "nyI5g1jN1dQ3cPJTtg36ptmLn373" : true
+      }
+    },
+    "-KcEv8jqbl_M1AVjDxAw" : {
+      "likedBack" : {
+        "nyI5g1jN1dQ3cPJTtg36ptmLn373" : false
+      }
+    },
+    "-KcEv8lnIJF643C21Sls" : {
+      "likedBack" : {
+        "nyI5g1jN1dQ3cPJTtg36ptmLn373" : false
+      }
+    },
+    "-KcEv8mRShwiwncejWHf" : {
+      "likedBack" : {
+        "nyI5g1jN1dQ3cPJTtg36ptmLn373" : false
+      }
+    },
+    "-KcEv8n1rSqH23iGRkxr" : {
+      "likedBack" : {
+        "nyI5g1jN1dQ3cPJTtg36ptmLn373" : true
+      }
+    },
+    "-KcEv8nnJfm2kopcA5Qr" : {
+      "likedBack" : {
+        "nyI5g1jN1dQ3cPJTtg36ptmLn373" : true
+      }
+    },
+    "nyI5g1jN1dQ3cPJTtg36ptmLn373" : {
+      "liked" : {
+        "-KcEv8h7GrwAvAf4VTnW" : true,
+        "-KcEv8jFM0jfqgVOTcTT" : true,
+        "-KcEv8jqbl_M1AVjDxAw" : false,
+        "-KcEv8lnIJF643C21Sls" : false,
+        "-KcEv8mRShwiwncejWHf" : false,
+        "-KcEv8n1rSqH23iGRkxr" : true,
+        "-KcEv8nnJfm2kopcA5Qr" : true
+      },
+      "likedBack" : {
+        "-KcEv8h7GrwAvAf4VTnW" : true,
+        "-KcEv8n1rSqH23iGRkxr" : true,
+        "-KcEv8nnJfm2kopcA5Qr" : true
+      }
+    }
+  },
+  "users" : {
+    "-KcEv8h7GrwAvAf4VTnW" : {
+      "ageRange" : [ 20, 30 ],
+      "birthday" : "10/18/1986",
+      "first_name" : "Candice",
+      "gender" : "female",
+      "id" : "259389830744794",
+      "showMen" : true,
+      "showWomen" : true,
+      "uid" : "-KcEv8h7GrwAvAf4VTnW",
+      "work" : [ {
+        "position" : {
+          "name" : "Supermodel"
+        }
+      } ]
+    },
+    "-KcEv8h7GrwBvAf4VTnW" : {
+      "ageRange" : [ 20, 30 ],
+      "birthday" : "10/18/1988",
+      "first_name" : "Nick",
+      "gender" : "male",
+      "id" : "131180735372",
+      "showMen" : true,
+      "showWomen" : true,
+      "uid" : "-KcEv8h7GrwBvAf4VTnW",
+      "work" : [ {
+        "position" : {
+          "name" : "Actuary"
+        }
+      } ]
+    },
+    "-KcEv8jFB0jfqgVOTcTT" : {
+      "ageRange" : [ 20, 30 ],
+      "birthday" : "1/10/1986",
+      "first_name" : "Broderick",
+      "gender" : "male",
+      "id" : "100013489410724",
+      "showMen" : true,
+      "showWomen" : true,
+      "uid" : "-KcEv8jFB0jfqgVOTcTT",
+      "work" : [ {
+        "position" : {
+          "name" : "Architect"
+        }
+      } ]
+    },
+    "-KcEv8jFM0jfqgVOTcTT" : {
+      "ageRange" : [ 20, 30 ],
+      "birthday" : "1/10/1989",
+      "first_name" : "Alessandra",
+      "gender" : "female",
+      "id" : "720115413",
+      "showMen" : true,
+      "showWomen" : true,
+      "uid" : "-KcEv8jFM0jfqgVOTcTT",
+      "work" : [ {
+        "position" : {
+          "name" : "Dancer"
+        }
+      } ]
+    },
+    "-KcEv8jqbl_M1AVjDxAw" : {
+      "ageRange" : [ 20, 30 ],
+      "birthday" : "12/12/1983",
+      "first_name" : "Miranda",
+      "gender" : "female",
+      "id" : "169571172540",
+      "showMen" : true,
+      "showWomen" : true,
+      "uid" : "-KcEv8jqbl_M1AVjDxAw",
+      "work" : [ {
+        "position" : {
+          "name" : "Doctor"
+        }
+      } ]
+    },
+    "-KcEv8jqbl_M1CVjDxAw" : {
+      "ageRange" : [ 20, 30 ],
+      "birthday" : "12/12/1993",
+      "first_name" : "Andy",
+      "gender" : "male",
+      "id" : "100005761033050",
+      "showMen" : true,
+      "showWomen" : true,
+      "uid" : "-KcEv8jqbl_M1CVjDxAw",
+      "work" : [ {
+        "position" : {
+          "name" : "Chef"
+        }
+      } ]
+    },
+    "-KcEv8lnIJF643C21Sls" : {
+      "ageRange" : [ 20, 30 ],
+      "birthday" : "2/11/1990",
+      "first_name" : "Alissa",
+      "gender" : "female",
+      "id" : "1476279359358140",
+      "showMen" : true,
+      "showWomen" : true,
+      "uid" : "-KcEv8lnIJF643C21Sls",
+      "work" : [ {
+        "position" : {
+          "name" : "Comedian"
+        }
+      } ]
+    },
+    "-KcEv8lvIJF643C21Sls" : {
+      "ageRange" : [ 20, 30 ],
+      "birthday" : "2/11/1980",
+      "first_name" : "Julian",
+      "gender" : "male",
+      "id" : "607685913",
+      "showMen" : true,
+      "showWomen" : true,
+      "uid" : "-KcEv8lvIJF643C21Sls",
+      "work" : [ {
+        "position" : {
+          "name" : "Consultant"
+        }
+      } ]
+    },
+    "-KcEv8mRShawwncejWHf" : {
+      "ageRange" : [ 20, 30 ],
+      "birthday" : "3/23/1991",
+      "first_name" : "Alberto",
+      "gender" : "male",
+      "id" : "374309349272414",
+      "showMen" : true,
+      "showWomen" : true,
+      "uid" : "-KcEv8mRShawwncejWHf",
+      "work" : [ {
+        "position" : {
+          "name" : "Firefighter"
+        }
+      } ]
+    },
+    "-KcEv8mRShwiwncejWHf" : {
+      "ageRange" : [ 20, 30 ],
+      "birthday" : "3/23/1991",
+      "first_name" : "Behati",
+      "gender" : "female",
+      "id" : "1492309647685574",
+      "showMen" : true,
+      "showWomen" : true,
+      "uid" : "-KcEv8mRShwiwncejWHf",
+      "work" : [ {
+        "position" : {
+          "name" : "Developer"
+        }
+      } ]
+    },
+    "-KcEv8n1rSqH23iGRkxr" : {
+      "ageRange" : [ 20, 30 ],
+      "birthday" : "9/4/1989",
+      "first_name" : "Rosie",
+      "gender" : "female",
+      "id" : "912478262117011",
+      "showMen" : true,
+      "showWomen" : true,
+      "uid" : "-KcEv8n1rSqH23iGRkxr",
+      "work" : [ {
+        "position" : {
+          "name" : "Artist"
+        }
+      } ]
+    },
+    "-KcEv8n1rSqHasdviGRkxr" : {
+      "ageRange" : [ 30, 40 ],
+      "birthday" : "9/4/1995",
+      "first_name" : "Cory",
+      "gender" : "male",
+      "id" : "632475580108574",
+      "showMen" : true,
+      "showWomen" : true,
+      "uid" : "-KcEv8n1rSqHasdviGRkxr",
+      "work" : [ {
+        "position" : {
+          "name" : "Lawyer"
+        }
+      } ]
+    },
+    "-KcEv8nnJfm2kopcA5Qr" : {
+      "ageRange" : [ 20, 30 ],
+      "birthday" : "8/17/1992",
+      "first_name" : "Kendall",
+      "gender" : "female",
+      "id" : "173567062703796",
+      "showMen" : true,
+      "showWomen" : true,
+      "uid" : "-KcEv8nnJfm2kopcA5Qr",
+      "work" : [ {
+        "position" : {
+          "name" : "Truck Driver"
+        }
+      } ]
+    },
+    "-KcEv8nnJfm3vaopcA5Qr" : {
+      "ageRange" : [ 20, 30 ],
+      "birthday" : "8/17/1991",
+      "first_name" : "Jack",
+      "gender" : "male",
+      "id" : "649621978476105",
+      "showMen" : true,
+      "showWomen" : true,
+      "uid" : "-KcEv8nnJfm3vaopcA5Qr",
+      "work" : [ {
+        "position" : {
+          "name" : "Police Officer"
+        }
+      } ]
+    },
+    "nyI5g1jN1dQ3cPJTtg36ptmLn373" : {
+      "ageRange" : [ 18, 70 ],
+      "birthday" : "10/29/1993",
+      "distance" : 30,
+      "first_name" : "Charly",
+      "gender" : "male",
+      "id" : "10216196335044513",
+      "last_name" : "Plee",
+      "showMen" : true,
+      "showWomen" : true,
+      "uid" : "nyI5g1jN1dQ3cPJTtg36ptmLn373"
+    }
+  }
+}

@@ -3,7 +3,7 @@ import { View } from "react-native";
 import Card from "../components/Card";
 import SimpleScroller from '../components/SimpleScroller';
 import Profile from './Profile';
-import Matches from './Matches'
+import Matches from './Matches';
 import * as firebase from 'firebase';
 import * as Location from 'expo-location';
 import {GeoFire} from "geofire";
@@ -63,9 +63,9 @@ export default class Home extends Component {
       radius: distance
     });
     geoQuerry.on('key_entered', async (uid, location, distance) => {
-      console.log(`${uid} at ${location} is ${distance} km from the center`);
+      // console.log(`${uid} at ${location} is ${distance} km from the center`);
       const user = await this.getUser(uid);
-      console.log(user.val().name);
+      // console.log(user.val().name);
       const profiles = [...this.state.profiles, user.val()];
       const filtered = filter(profiles, this.state.user, swipedProfiles)
       this.setState({profiles: filtered});
@@ -132,7 +132,7 @@ export default class Home extends Component {
         screens={[
           <Profile user={this.state.user} />,
           this.cardStack(),
-          <Matches />
+          <Matches navigation={this.props.navigation} user={this.state.user} />
         ]}
       />
     );

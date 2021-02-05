@@ -11,7 +11,7 @@ export default (profiles, user, swipedProfiles) => {
     const profileShowMen = profile.showMen && user.gender === 'male';
     const profileShowWomen = profile.showWomen && user.gender === 'female';
 
-    console.log(`Men : ${userShowMen}`, `Women : ${userShowWomen}`)
+    // console.log(`Men : ${userShowMen}`, `Women : ${userShowWomen}`)
 
     return (userShowMen || userShowWomen) && (profileShowMen || profileShowWomen)
     })
